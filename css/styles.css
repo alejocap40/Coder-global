@@ -8,7 +8,8 @@
 
 body {
     
-    background-color: #88868a;
+    background-image: linear-gradient(to bottom right, #66696d , #88868a)
+    /* background-color: #88868a; */
     
     
     
@@ -32,13 +33,6 @@ header{
     height: 30px;
     
 }
-
-
-
-/* .logo {
-    width: 100px;
-    height: 100px;
-} */
 
 .itemNav {
     font-size: 2.5rem;
@@ -67,7 +61,7 @@ header{
     margin-right: 40px;
 }
 
-/* ---------------------------------------------------------- hola Main-------------------------------------------- */
+/* ----------------------------------------------------------Main-------------------------------------------- */
 
 
 main h2 {
