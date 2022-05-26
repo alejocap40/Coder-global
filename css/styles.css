@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
+/* -------------------------header----------------------------------------------------- */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #605d63;
+  margin-bottom: 30px; }
+
+.navColor {
+  background-color: #605d63; }
+
+.redesSociales img {
+  width: 30px;
+  height: 30px; }
+
+.itemNav {
+  font-size: 2.5rem; }
+
+.headerContacto {
+  width: 80px; }
+  .headerContacto img {
+    width: 35px;
+    height: 35px; }
+
+.buscar {
+  color: #605d63;
+  border: #605d63; }
+  .buscar:hover {
+    color: #605d63;
+    border: #605d63; }
+
+.centrarLi {
+  margin-right: 40px; }
+
+footer {
+  background-color: #605d63;
+  margin-top: 70px; }
+
+.pieContactenos li {
+  list-style-type: none; }
+
+.pieContactenos img {
+  width: 35px; }
+
+.pieContactenos h3 {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  font-weight: bold; }
+
+.pieSeguinos li {
+  list-style-type: none; }
+
+.pieSeguinos img {
+  width: 35px; }
+
+.pieSeguinos p {
+  margin-top: 40px;
+  text-align: end; }
+
+.pieSeguinos ul {
+  margin-right: 20px;
+  margin-top: 10px; }
+
+.pieSeguinos h3 {
+  margin-bottom: 15px;
+  font-weight: bold; }
+
+.botonWhatsApp img {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
+.enLinea {
+  display: inline-block; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "EB Garamond"; }
+
+body {
+  background-image: linear-gradient(to bottom right, #66696d, #88868a); }
+
+/* ----------------------------------------------------------Main-------------------------------------------- */
+main h2 {
+  text-transform: uppercase;
+  text-align-last: center;
+  margin: 40px; }
+
+.prodDest {
+  display: flex;
+  justify-content: center; }
+
+.destacados {
+  margin-top: 50px; }
+  .destacados img {
+    border-radius: 10px;
+    width: 250px;
+    margin-right: 50px;
+    box-shadow: 2px 2px 10px #464545;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: block; }
+
+.destacados h3 {
+  text-align-last: center; }
+
+.destacados h4 {
+  text-align-last: center; }
+
+.destacados h5 {
+  text-align-last: center; }
+
+.boton {
+  all: unset;
+  background-color: #605d63;
+  font-size: 1.3rem;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 10;
+  text-align: center;
+  width: 130px;
+  height: 50px; }
+  .boton:hover {
+    background-color: #A4A1A0;
+    color: white; }
+  .boton a {
+    text-decoration: none; }
+    .boton a:visited {
+      color: white; }
+
+.separacion {
+  margin-top: 50px; }
+
+/* -----------------------------Productos----------------------------------------- */
+.prodPrin {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+
+.descrip {
+  display: block;
+  margin-left: 60px;
+  margin-top: 50px; }
+
+.prodPrinImg img {
+  border-radius: 10px;
+  margin-right: 50px;
+  box-shadow: 2px 2px 10px #464545; }
+
+.precio p {
+  font-size: 1.4rem; }
+
+.botonProd {
+  all: unset;
+  background-color: #605d63;
+  font-size: 1.3rem;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.4;
+  text-align: center;
+  width: 130px;
+  height: 50px;
+  margin-top: 50px; }
+  .botonProd:hover {
+    background-color: #A4A1A0;
+    color: white; }
+
+.prodDescripDos {
+  font-size: 1.4rem; }
+
+.prodDescrip {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+
+/* --------------------------CONTACTO---------------------------------- */
+.direccion {
+  font-size: 1.5rem; }
+
+.mapa {
+  margin-top: 20%; }

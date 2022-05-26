@@ -1,0 +1,44 @@
+/* -------------------------header----------------------------------------------------- */
+
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: $colorHeader; 
+    margin-bottom: 30px;   
+}
+
+.navColor {
+    background-color: $colorHeader;
+}
+
+.redesSociales img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.itemNav {
+    font-size: 2.5rem;
+}
+
+.headerContacto {
+    width: 80px;
+        img {
+            width: 35px;
+            height: 35px;
+        }
+}
+
+.buscar {
+    color: $colorHeader;
+    border: $colorHeader;
+        &:hover {
+            color: $colorHeader;
+            border: $colorHeader;    
+        }    
+}
+
+.centrarLi {
+    margin-right: 40px;
+}
