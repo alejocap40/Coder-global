@@ -1,3 +1,13 @@
-$colorHeader:#605d63;
-$colorFooter: #605d63;
-$colorBody: linear-gradient(to bottom right, #66696d, #88868a);
+$colores: (
+    heaFot: #605d63,
+    body: linear-gradient(to bottom right, #66696d, #88868a),
+    copyr: rgba(0, 0, 0, 0.05),
+    negro: black,
+    blanco: white,
+);
+
+@mixin fl ($fle, $justify, $margin) {
+    display: $fle;
+    justify-content: $justify;
+    margin-top: $margin;
+}

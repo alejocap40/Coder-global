@@ -1,22 +1,39 @@
 /* -------------------------header----------------------------------------------------- */
 
 
-header{
+header {
     position: sticky;
     top: 0;
-    background-color: $colorHeader; 
-    margin-bottom: 30px;   
-}
-
-.navColor {
-    background-color: $colorHeader;
-}
-
-.redesSociales img {
-    width: 30px;
-    height: 30px;
+    background-color: map-get($colores,heaFot); 
+    margin-bottom: 30px;
     
 }
+
+.redeColor {
+    color:map-get($colores,negro);
+}
+
+.topHeader {
+    background-color: map-get($colores,copyr);
+    }
+
+.colorTxtTopHeader p {
+    color:map-get($colores,negro);
+    text-align: center;
+    text-justify:auto;
+    margin-bottom: 0px;
+}
+
+.rSocial {
+    text-align: right;
+}
+
+
+
+.navColor {
+    background-color: map-get($colores , heaFot );
+}
+
 
 .itemNav {
     font-size: 2.5rem;
@@ -31,11 +48,11 @@ header{
 }
 
 .buscar {
-    color: $colorHeader;
-    border: $colorHeader;
+    color: map-get($colores,headFot);
+    border: map-get($colores,negro);
         &:hover {
-            color: $colorHeader;
-            border: $colorHeader;    
+            color: map-get($colores,negro);
+            border: map-get($colores,negro);    
         }    
 }
 

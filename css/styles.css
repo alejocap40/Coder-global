@@ -6,12 +6,23 @@ header {
   background-color: #605d63;
   margin-bottom: 30px; }
 
+.redeColor {
+  color: black; }
+
+.topHeader {
+  background-color: rgba(0, 0, 0, 0.05); }
+
+.colorTxtTopHeader p {
+  color: black;
+  text-align: center;
+  text-justify: auto;
+  margin-bottom: 0px; }
+
+.rSocial {
+  text-align: right; }
+
 .navColor {
   background-color: #605d63; }
-
-.redesSociales img {
-  width: 30px;
-  height: 30px; }
 
 .itemNav {
   font-size: 2.5rem; }
@@ -23,11 +34,10 @@ header {
     height: 35px; }
 
 .buscar {
-  color: #605d63;
-  border: #605d63; }
+  border: black; }
   .buscar:hover {
-    color: #605d63;
-    border: #605d63; }
+    color: black;
+    border: black; }
 
 .centrarLi {
   margin-right: 40px; }
@@ -35,6 +45,13 @@ header {
 footer {
   background-color: #605d63;
   margin-top: 70px; }
+
+.border-bottom {
+  --bs-border-color:#88868a ; }
+
+.text-muted {
+  color: black !important;
+  --bs-text-opacity: 0; }
 
 .pieContactenos li {
   list-style-type: none; }
@@ -74,6 +91,12 @@ footer {
 .enLinea {
   display: inline-block; }
 
+.btn-primary {
+  --bs-btn-bg: grey;
+  --bs-btn-border-color: grey;
+  --bs-btn-hover-bg: #878A8D;
+  --bs-btn-hover-border-color: #878A8D; }
+
 * {
   padding: 0;
   margin: 0;
@@ -105,13 +128,13 @@ main h2 {
     display: block; }
 
 .destacados h3 {
-  text-align-last: center; }
+  text-align: center; }
 
 .destacados h4 {
-  text-align-last: center; }
+  text-align: center; }
 
 .destacados h5 {
-  text-align-last: center; }
+  text-align: center; }
 
 .boton {
   all: unset;
@@ -131,6 +154,22 @@ main h2 {
     text-decoration: none; }
     .boton a:visited {
       color: white; }
+    .boton a:link {
+      color: white; }
+
+.btnBody {
+  width: 130px;
+  height: 50px;
+  font-size: 1.3rem; }
+
+.btnBody a {
+  text-decoration: none; }
+
+.btnBody a:visited {
+  color: white; }
+
+.btnBody a:link {
+  color: white; }
 
 .separacion {
   margin-top: 50px; }

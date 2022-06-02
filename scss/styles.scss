@@ -10,8 +10,8 @@
 
 body {
     
-    background-image: $colorBody
-    /* background-color: #88868a; */
+    background-image: map-get($colores , body);
+    
     
     
     
@@ -46,19 +46,18 @@ main h2 {
         }
 }
 
-
-
-.destacados {
-    h3 {
-        text-align-last: center;
-    }
-    h4 {
-        text-align-last: center;
-    }
-    h5 {
-        text-align-last: center;
-    }
+.destacados h3 {
+    text-align: center;
 }
+
+.destacados h4 {
+    text-align: center;
+}
+
+.destacados h5 {
+    text-align: center;
+}
+
 
 .boton {
     all: unset;
@@ -66,23 +65,41 @@ main h2 {
     font-size: 1.3rem;
     border-radius: 2px;
     text-decoration: none;
-    color:white;
+    color: map-get($colores,blanco);
     transition-duration: 10;
     text-align: center;
     width: 130px;
     height: 50px;
         &:hover {
             background-color: #A4A1A0;
-            color: white;
+            color: map-get($colores,blanco);
         }
         a {
             text-decoration: none;    
                 &:visited {
-                    color: white;    
+                    color: map-get($colores,blanco);   
+                }
+                &:link {
+                    color: map-get($colores,blanco);
                 }
         }
         
 }
+
+.btnBody {
+    width: 130px;
+    height: 50px;
+    font-size: 1.3rem;
+}
+
+.btnBody a {
+    text-decoration: none;
+}
+
+.btnBody a:visited {
+    color: map-get($colores,blanco); }
+.btnBody a:link {
+    color: map-get($colores,blanco); }
 
 .separacion {
     margin-top: 50px;
@@ -91,9 +108,7 @@ main h2 {
 /* -----------------------------Productos----------------------------------------- */
 
 .prodPrin {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+    @include fl (flex,center,100px)
 }
 
 .descrip {
@@ -118,7 +133,7 @@ main h2 {
     font-size: 1.3rem;
     border-radius: 2px;
     text-decoration: none;
-    color:white;
+    color:map-get($colores,blanco);;
     transition-duration: 0.4;
     text-align: center;
     width: 130px;
@@ -126,7 +141,7 @@ main h2 {
     margin-top: 50px;
         &:hover{
             background-color: #A4A1A0;
-            color: white;
+            color: map-get($colores,blanco);;
         }
 }
 
@@ -135,9 +150,7 @@ main h2 {
 }
 
 .prodDescrip {
-    display: flex;
-    justify-content:center;
-    margin-top: 100px;
+    @include fl (flex,center,100px)
 }
 
 /* --------------------------CONTACTO---------------------------------- */

@@ -13,54 +13,67 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <div class="row">
-            <a class="navbar-brand col-lg-2 col-md-1 col-sm-4 col-4 navColor" href="../index.html"><img
-                    class="figure-img img-fluid" src="../img/logo.png" alt="logo de la empresa"></a>
-            <nav class="navbar navbar-expand-lg navColor  col-lg-8 col-md-10 col-sm-4 col-4">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse flex-column mb-2" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item centrarLi">
-                                <a class="nav-link active itemNav" aria-current="page" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item dropdown centrarLi">
-                                <a class="nav-link dropdown-toggle itemNav" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Productos
-                                </a>
-                                <ul class="dropdown-menu navColor" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item itemNav" href="./tipi.html">Tipis</a></li>
-                                    <li><a class="dropdown-item itemNav" href="./almohadones.html">Almohadones</a>
-                                    </li>
-                                    <li><a class="dropdown-item itemNav" href="./mune_apego.html">Muñecos y
-                                            Apegos</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item centrarLi">
-                                <a class="nav-link active itemNav" aria-current="page"
-                                    href="./contactenos.html">Contactenos</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                            <button class="btn btn-outline-success buscar" style="background-color: #FFFFFF  ;"
-                                type="submit">Buscar</button>
-                        </form>
-                    </div>
+    <header>
+        <div class="topHeader container-fluid">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="colorTxtTopHeader col-lg-8">
+                    <p>Abonando en efectivo 20% de descuento</p>
                 </div>
-            </nav>
-
-            <div class="d-flex justify-content-end redesSociales navColor col-lg-2 col-md-1 col-sm-4 col-4">
-                <a class="navbar-brand" href="https://www.instagram.com/pampaminideco.arg/"><img class="logo"
-                        src="../img/instagram.png" alt="logo de la instagram"></a>
-                <a class="navbar-brand" href="https://www.facebook.com/search/top/?q=pampa-minideco"><img class="logo"
-                        src="../img/facebook.png" alt="logo de la instagram"></a>
+                <div class="rSocial col-lg-2">
+                    <a href="https://www.facebook.com/search/top/?q=pampa-minideco" target="_blank" role="button"><i
+                            class="fab fa-facebook-f fa-lg figure-img img-fluid redeColor"></i></a>
+                    <a href="https://www.instagram.com/pampaminideco.arg/" target="_blank" role="button"><i
+                            class="fab fa-instagram fa-lg figure-img img-fluid redeColor"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <a class="navbar-brand col-lg-2 col-md-1 col-sm-4 col-4 navColor figure-img img-fluid"
+                    href="../index.html"><img class="figure-img img-fluid" src="../img/logo.png"
+                        alt="logo de la empresa"></a>
+                <nav class="navbar navbar-expand-lg navColor  col-lg-8 col-md-10 col-sm-4 col-4">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse flex-column mb-2" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item centrarLi">
+                                    <a class="nav-link active itemNav" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item dropdown centrarLi">
+                                    <a class="nav-link dropdown-toggle itemNav centrarLi" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Productos
+                                    </a>
+                                    <ul class="dropdown-menu navColor" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item itemNav" href="./tipi.html">Tipis</a></li>
+                                        <li><a class="dropdown-item itemNav"
+                                                href="./almohadones.html">Almohadones</a>
+                                        </li>
+                                        <li><a class="dropdown-item itemNav" href="./mune_apego.html">Muñecos y
+                                                Apegos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item centrarLi">
+                                    <a class="nav-link active itemNav" aria-current="page"
+                                        href="./contactenos.html">Contactenos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="d-flex align-items-center col-lg-2 col-md-1 col-sm-4 col-4">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-primary" ;
+                            type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
         </div>
     </header>
@@ -107,60 +120,85 @@
             </div>
         </section>
     </main>
-    <footer class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="pieContactenos col-lg-6">
-                    <h3>Contactenos</h3>
-                    <ul>
-                        <li>
-                            <div class="enLinea">
-                                <img src="../img/whatsapp.png" alt="">
-                            </div>
-                            <div class="enLinea">
-                                <h4>1159587855</h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="enLinea">
-                                <img src="../img/telefono.png" alt="">
-                            </div>
-                            <div class="enLinea">
-                                <h4>1159577855</h4>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="enLinea">
-                                <img src="../img/email.png" alt="">
-                            </div>
-                            <div class="enLinea">
-                                <h4>info@pampa-minideco.com.ar</h4>
-                            </div>
-                        </li>
-                    </ul>
+    <footer class="text-center text-lg-start text-muted">
+        <div class="container-fluid p-4 pb-0 border-bottom">
+            <form action="">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <p class="pt-2 text-end">
+                            <strong>Suscríbete a nuestro newsletter</strong>
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-12 mb-4 mb-md-0">
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form5Example25" class="form-control"
+                                placeholder="Ingrese su E-mail" />
+                            <label class="form-label" for="form5Example25"></label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4 mb-md-0">
+                        <button type="submit" class="btn btn-primary mb-4">
+                            Subscrite
+                        </button>
+                    </div>
                 </div>
-                <div class="pieSeguinos  col-lg-6 ">
-                    <h3>Sigamos conectados</h3>
-                    <ul>
-                        <li>
-                            <a href="https://www.instagram.com/pampaminideco.arg/" target="_blank"><img
-                                    src="../img/instagram.png" alt="logo de instagram"></a>
-                            <a href="https://www.facebook.com/search/top/?q=pampa-minideco" target="_blank"><img
-                                    src="../img/facebook.png" alt="logo de facebook"></a>
-                        </li>
-                    </ul>
-                    <p><b>Pampa - Minideco -
-                            Todos los derecchos reservados
-                    </p></b>
+            </form>
+        </div>
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+            <span>
+                Conéctate con nosotras en las redes sociales:</span>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/search/top/?q=pampa-minideco target= _blank" class="me-4 text-reset">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/pampaminideco.arg/" target="_blank" class="me-4 text-reset">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>PAMPA-MINIDECO
+                    </h6>
                 </div>
-            </div>
-            <div class="botonWhatsApp">
-                <a href="https://api.whatsapp.com/send?phone=+541140460952" target="_blank"><img
-                        src="../img/logoWhatsapp.png" alt="Link a WhatsApp"></a>
-
+                <div class="col-md-2 col-lg-5 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Productos
+                    </h6>
+                    <p>
+                        <a href="./tipi.html" class="text-reset">Carpas Tipi</a>
+                    </p>
+                    <p>
+                        <a href="./almohadones.html" class="text-reset">Almohadones</a>
+                    </p>
+                    <p>
+                        <a href="./mune_apego.html" class="text-reset">Muñecos y Apegos</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Contact
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Devoto - CABA</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        info@pampa-minideco.com.ar
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 54 11 40460952</p>
+                </div>
             </div>
         </div>
-    </footer>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold">PAMPA-MINIDECO</a>
+    </div>
+</footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
