@@ -91,11 +91,51 @@ footer {
 .enLinea {
   display: inline-block; }
 
-.btn-primary {
-  --bs-btn-bg: grey;
-  --bs-btn-border-color: grey;
-  --bs-btn-hover-bg: #878A8D;
-  --bs-btn-hover-border-color: #878A8D; }
+.botonBuscar {
+  all: unset;
+  background-color: grey;
+  font-size: 1.3rem;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 10;
+  text-align: center;
+  width: 130px;
+  height: 37px;
+  margin-bottom: 15px; }
+  .botonBuscar:hover {
+    background-color: #878A8D;
+    color: white; }
+  .botonBuscar a {
+    text-decoration: none; }
+    .botonBuscar a:visited {
+      color: white; }
+    .botonBuscar a:link {
+      color: white; }
+
+.margen {
+  margin-bottom: 15px; }
+
+.botonSuscribe {
+  all: unset;
+  background-color: grey;
+  font-size: 1.3rem;
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  transition-duration: 10;
+  text-align: center;
+  width: 130px;
+  height: 37px; }
+  .botonSuscribe:hover {
+    background-color: #878A8D;
+    color: white; }
+  .botonSuscribe a {
+    text-decoration: none; }
+    .botonSuscribe a:visited {
+      color: white; }
+    .botonSuscribe a:link {
+      color: white; }
 
 * {
   padding: 0;
