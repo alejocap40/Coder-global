@@ -185,7 +185,7 @@ main h2 {
   color: white;
   transition-duration: 10;
   text-align: center;
-  width: 130px;
+  width: 40%;
   height: 50px; }
   .boton:hover {
     background-color: #A4A1A0;
